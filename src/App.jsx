@@ -14,6 +14,7 @@ function App() {
     let formdata= new FormData(form);
     let formobj = Object.fromEntries(formdata.entries())
     console.log(formobj);
+    
 
   }
   return (
